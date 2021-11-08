@@ -15,7 +15,7 @@ export const MenuBorder = () => {
 export const Logo = () => {
   // eslint-disable-next-line @next/next/no-img-element
   return <img
-    src={"/img/home/logo.png"}
+    src={"./img/home/logo.png"}
     height="100%"
     alt="sushi101-menubar-logo" />
 }

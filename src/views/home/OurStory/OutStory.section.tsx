@@ -42,7 +42,7 @@ const OurStoryLaptop = () => {
       <Grid item container xs={6} sx={{ position: "relative", height: 320, width: 300 }}>
         <img
           height="100%"
-          src={'/img/home/story-background.jpg'} alt="story about us background image" />
+          src={'./img/home/story-background.jpg'} alt="story about us background image" />
       </Grid>
     </Grid>
   </Paper>
@@ -55,7 +55,7 @@ const OurStoryMobile = () => {
       <div style={{
         height: 160,
         width: "100%",
-        backgroundImage: "url('/img/home/story-background.jpg')",
+        backgroundImage: "url('./img/home/story-background.jpg')",
         backgroundPosition: "center center",
         backgroundSize: "cover",
         borderTopLeftRadius: 5,
