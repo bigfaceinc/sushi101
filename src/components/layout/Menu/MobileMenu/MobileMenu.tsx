@@ -4,10 +4,10 @@ import { useRecoilValue } from 'recoil'
 import MenuIcon from '@mui/icons-material/Menu';
 import Divider from '@mui/material/Divider';
 import { MenuItemIntf, menuList } from '../Menu.type';
-import Link  from 'next/link'
+import Link from 'next/link'
 import { menuInterSectingState } from '../Menu.recoil';
 import { ExpandLess, ExpandMore } from '@mui/icons-material';
-import Image from 'next/image'
+import { Logo } from '../LaptopMenu/LaptopMenu.component';
 
 export const MobileMenu = () => {
   const [openDrawer, setOpenDrawer] = useState(false)
@@ -30,8 +30,8 @@ export const MobileMenu = () => {
       </Grid>
 
       {menuIsIntersecting &&
-        <Grid item py={0.5} sx={{ height: "100%" }}>
-          <Image src={"/img/home/logo.png"} width={120} height={50} alt="sushi101-menubar-logo" />
+        <Grid item p={0.5} sx={{ height: "90%", width: 80, position: "relative" }}>
+          <Logo />
         </Grid>
       }
     </Grid>
@@ -68,7 +68,7 @@ const MobileMenuList = () => {
   }
 
   const ParentItem = ({ menuItem }: { menuItem: MenuItemIntf }) => {
-    const [isActive, setIsActive] = useState(false)
+    const [isActive, setIsActive] = useState(true)
 
 
     return <>
@@ -82,12 +82,13 @@ const MobileMenuList = () => {
       {isActive && menuItem.children!.map((item, index) => {
         const isNotLastItem = index !== menuItem.children!.length - 1
 
-        return <Link href={item.path ?? ""} passHref key={item.title}>
-          <ListItem button key={item.title}>
+        return <><ListItemButton key={item.title} sx={{backgroundColor: "grey.100"}}>
+          <Link href={item.path ?? ""} passHref >
             <ListItemText primary={item.title} sx={{ textAlign: "center" }} />
-          </ListItem>
+          </Link>
+        </ListItemButton>
           {isNotLastItem && <Divider />}
-        </Link>
+        </>
       })}
     </>
   }

@@ -5,10 +5,19 @@ import { alpha, SxProps, Theme } from '@mui/system'
 import React, { useMemo } from 'react'
 import Link from 'next/link'
 import { MenuItemIntf } from '../Menu.type'
+import Image from 'next/image'
 
 export const MenuBorder = () => {
   const borderStyle: SxProps<Theme> = { height: 18, borderRight: 2, borderRightColor: "primary.main" }
   return <Box sx={borderStyle} />
+}
+
+export const Logo = () => {
+  return <Image
+    src={"/img/home/logo.png"}
+    layout='fill'
+    objectFit='contain'
+    alt="sushi101-menubar-logo" />
 }
 
 
@@ -63,18 +72,32 @@ export const LaptopMenuButton = ({ active = false, title, to = "", onClick, chil
     }
   }
 
+  const LinkToMenu = () => {
+    if (childrenItems) {
+      return <>{title}</>
+    } else {
+      return <Link href={to ?? ""} passHref>
+        {title}
+      </Link>
+    }
+  }
+
 
   return <>
-    <Link href={to ?? ""} passHref>
-      <Button variant={variant as any} color={color as any} onClick={(e) => {
-        setAnchorEl(e.currentTarget)
-        if (onClick) {
-          onClick()
-        }
-      }} sx={{ minWidth: 120 }}>
-        {title}
-      </Button>
-    </Link>
+    <Button variant={variant as any} color={color as any} onClick={(e) => {
+      setAnchorEl(e.currentTarget)
+      if (onClick) {
+        onClick()
+      }
+    }}
+      sx={{ minWidth: 100 }}
+      disableRipple
+      disableTouchRipple
+      disableFocusRipple
+    >
+
+      <LinkToMenu />
+    </Button>
     {renderPopupMenu()}
   </>
 }

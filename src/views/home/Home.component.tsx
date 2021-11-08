@@ -1,7 +1,8 @@
-import { SxProps, Theme } from "@mui/system";
+import { Box, SxProps, Theme } from "@mui/system";
 import { Button, Container, Grid } from '@mui/material'
 import { useMenuStyle } from '../../components/layout/Menu/useMenuStyle.hook'
 import Image from 'next/image'
+import { Logo } from "@components/layout/Menu/LaptopMenu/LaptopMenu.component";
 
 export const backgroundCss: SxProps<Theme> = {
   backgroundSize: "cover",
@@ -21,9 +22,11 @@ export const HeroText = () => {
   return <Container sx={{ height: '100%', width: "100%" }} >
     <Grid container alignItems="center" justifyContent={"start"} sx={{ height: '100%', width: "100%" }}>
       <Grid item container direction="column" sx={{ maxWidth: 280 }} spacing={1}>
-        <Grid item>
+        <Grid item >
           <div ref={observerRef} style={{ position: "relative", bottom: 72 }}></div>
-          <Image src={"/img/home/logo.png"} height={200} width={300}  alt="sushi101 logo" />
+          <Box sx={{ height: 152, position: "relative" }}>
+            <Logo/>
+          </Box>
         </Grid>
         <Grid item container spacing={1}>
           <Grid item xs>

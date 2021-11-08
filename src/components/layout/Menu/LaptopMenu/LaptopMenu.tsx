@@ -6,7 +6,7 @@ import React, { Fragment, useMemo } from 'react'
 import { useRecoilState, useRecoilValue } from 'recoil'
 import { menuInterSectingState, menuStyleState } from '../Menu.recoil'
 import { menuList } from '../Menu.type'
-import { LaptopMenuButton, MenuBorder } from './LaptopMenu.component'
+import { LaptopMenuButton, Logo, MenuBorder } from './LaptopMenu.component'
 import { activeLaptopMenuItem } from './LaptopMenu.recoil'
 import Image from 'next/image'
 
@@ -15,7 +15,7 @@ export const LaptopMenu = () => {
 
   return <Container>
     <Grid container alignItems={"center"} justifyContent={"space-between"} direction={"row"}
-      sx={{ height: 72 }}
+      sx={{ height: 64 }}
     >
 
       <Grid
@@ -25,8 +25,8 @@ export const LaptopMenu = () => {
       </Grid>
 
       {menuIsIntersecting &&
-        <Grid item sx={{ height: "100%" }} p={1}>
-          <Image src={"/img/home/logo.png"} height={30} width={50} alt="sushi101-menubar-logo"  />
+        <Grid item sx={{ height: "85%", width: 100, position: "relative"}} >
+          <Logo />
         </Grid>
       }
 
