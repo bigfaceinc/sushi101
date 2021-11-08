@@ -22,6 +22,9 @@ export const useMenuStyle = () => {
         // menu bar is cross over the observerRef, observerRef is not available in the window
         else {
 
+          // setMenuStyle({ background: 'white', boxShadow: 3 })
+          // setMenuIntersecting(true)
+
           // still in page
           if (!isExit.current) {
             setMenuStyle({ background: 'white', boxShadow: 3 })

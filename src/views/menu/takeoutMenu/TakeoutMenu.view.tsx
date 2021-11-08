@@ -3,13 +3,12 @@ import { CategoryTitle, MenuHeader, MenuItem } from '../Menu.component'
 import { menuRoutes } from '@config/router'
 import { MenuProps } from '../Menu.type'
 
+export const TakeoutMenuView = ({ listMap }: MenuProps) => {
 
-
-export const LunchMenuView = ({ listMap }: MenuProps) => {
   const Column = ({ category }: { category: string }) => {
     const list = listMap[category]
 
-    return <Grid container direction="column" pb={2}>
+    return <Grid container direction="column" py={2} sx={{position: "relative"}}>
       <CategoryTitle category={category} />
       {list.map(item => {
         return <MenuItem key={item.title} title={item.title} price={item.price} description={item.description} />
@@ -19,16 +18,26 @@ export const LunchMenuView = ({ listMap }: MenuProps) => {
 
 
   return <>
-    <MenuHeader menuTitle={menuRoutes.lunch.title} />
+    <MenuHeader menuTitle={menuRoutes.takeOut.title} />
     <Container>
       <Grid container spacing={8}>
         <Grid item xs={12} md={6}>
-          <Column category='Bento Box Specials' />
-          <Column category='Ramen' />
+          <Column category='Appetizers' />
+          <Column category='Noodles' />
+          <Column category='Togo Bento Box' />
+          <Column category='Party Trays' />
+          <Column category='Soup & Salad' />
+          <Column category='Sushi Pizza' />
+          <Column category='Sushi & Sashimi Course Dinner' />
           <Column category='Stir-fry Teriyaki Bowls' />
+
         </Grid>
         <Grid item xs={12} md={6} >
-          <Column category='Sushi and Sashimi Lunch' />
+        <Column category='Traditional Maki' />
+        <Column category='Vegetarian Maki' />
+        <Column category='Sushi & Sashimi' />
+        <Column category='Fusion Special' />
+        
 
         </Grid>
       </Grid>

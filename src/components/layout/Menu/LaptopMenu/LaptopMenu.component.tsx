@@ -64,7 +64,7 @@ export const LaptopMenuButton = ({ active = false, title, to = "", onClick, chil
       >
         {childrenItems.map((item) => {
 
-          return <Link href={item.path ?? ""} key={item.title} passHref>
+          return <Link href={item.path ?? "/#"} key={item.title} passHref>
             <MenuItem onClick={handleClose}>{item.title}</MenuItem>
           </Link>
         })}

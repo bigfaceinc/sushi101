@@ -3,6 +3,8 @@ import { Button, Container, Grid } from '@mui/material'
 import { useMenuStyle } from '../../components/layout/Menu/useMenuStyle.hook'
 import Image from 'next/image'
 import { Logo } from "@components/layout/Menu/LaptopMenu/LaptopMenu.component";
+import Link from 'next/link'
+import { menuRoutes } from "@config/router";
 
 export const backgroundCss: SxProps<Theme> = {
   backgroundSize: "cover",
@@ -25,15 +27,24 @@ export const HeroText = () => {
         <Grid item >
           <div ref={observerRef} style={{ position: "relative", bottom: 72 }}></div>
           <Box sx={{ height: 152, position: "relative" }}>
-            <Logo/>
+            <Logo />
           </Box>
         </Grid>
         <Grid item container spacing={1}>
           <Grid item xs>
-            <Button fullWidth variant='contained'>View Menu</Button>
+            <Link href={menuRoutes.regular.path} passHref>
+              <Button fullWidth variant='contained'>
+                Regular Menu
+              </Button>
+            </Link>
           </Grid>
-          <Grid item xs>
-            <Button fullWidth variant='outlined' sx={{ background: "rgba(255,255,255, 0.45)" }} >Call Us</Button>
+          <Grid item xs>  
+            {/* <Button fullWidth variant='outlined' sx={{ background: "rgba(255,255,255, 0.45)" }} >Call Us</Button> */}
+            <Link href={menuRoutes.takeOut.path} passHref>
+              <Button fullWidth variant='outlined' sx={{ background: "rgba(255,255,255, 0.45)" }}>
+                Take-Out Menu
+              </Button>
+            </Link>
           </Grid>
         </Grid>
       </Grid>
