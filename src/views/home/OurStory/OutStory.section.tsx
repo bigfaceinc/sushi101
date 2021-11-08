@@ -40,9 +40,8 @@ const OurStoryLaptop = () => {
         </Grid>
       </Grid>
       <Grid item container xs={6} sx={{ position: "relative", height: 320, width: 300 }}>
-        <Image
-          layout='fill'
-          objectFit='contain'
+        <img
+          height="100%"
           src={'/img/home/story-background.jpg'} alt="story about us background image" />
       </Grid>
     </Grid>
