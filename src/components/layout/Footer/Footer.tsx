@@ -12,10 +12,10 @@ export const Footer = () => {
               <Typography variant='h5' color="white">Business Hours</Typography>
             </Grid>
             <Grid item >
-              <Typography color="white">MON-WED: 11am - 10pm</Typography>
+              <Typography color="white">MON-WED: 11:30pm - 9pm</Typography>
             </Grid>
             <Grid item >
-              <Typography color="white">THUR-SAT: 11am - 11pm</Typography>
+              <Typography color="white">THUR-SAT: 11:30am - 10pm</Typography>
             </Grid>
             <Grid item >
               <Typography color="white">SUN: 12pm - 9pm</Typography>
