@@ -34,17 +34,21 @@ export const HeroText = () => {
           <Grid item xs>
             <Link href={menuRoutes.regular.path} passHref>
               <Button fullWidth variant='contained'>
-                Regular Menu
+                View Menu
               </Button>
             </Link>
           </Grid>
-          <Grid item xs>  
-            {/* <Button fullWidth variant='outlined' sx={{ background: "rgba(255,255,255, 0.45)" }} >Call Us</Button> */}
-            <Link href={menuRoutes.takeOut.path} passHref>
+          <Grid item xs>
+            <a href="tel:+19024698888">
+              <Button fullWidth variant='outlined' sx={{ background: "rgba(255,255,255, 0.45)" }} >
+                Call Us
+              </Button>
+            </a>
+            {/* <Link href={menuRoutes.takeOut.path} passHref>
               <Button fullWidth variant='outlined' sx={{ background: "rgba(255,255,255, 0.45)" }}>
                 Take-Out Menu
               </Button>
-            </Link>
+            </Link> */}
           </Grid>
         </Grid>
       </Grid>

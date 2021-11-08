@@ -68,11 +68,11 @@ const OurStoryMobile = () => {
           <Typography variant='h5' sx={{ color: "primary.main", fontWeight: "bold" }} >Our Story</Typography>
         </Grid>
         <Grid item sx={{ p: 2 }} container >
-          <Typography variant="body1" align='center' >
+          <Typography variant="body1" align='left' >
             SUSHI101 hosts the finest Japanese Sushi dining/take-out experiences in Atlantic Canada.
           </Typography>
 
-          <Typography variant="body1" align='center'>
+          <Typography variant="body1" align='left'>
             SUSHI 101 strives to make its brand the Nation{"'"}s favourite finest Japanese Sushi and
             a best Ramen dining experience with customer-first business philosophy.
           </Typography>
