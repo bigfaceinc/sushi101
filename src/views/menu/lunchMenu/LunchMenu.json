@@ -1,0 +1,218 @@
+[
+  {
+    "Menu": "Lunch Specials",
+    "Category": "Bento Box Specials",
+    "Item": "Chicken Teriyaki",
+    "Price": 11.95,
+    "Note": "",
+    "Modifier1": "",
+    "Modifier2": ""
+  },
+  {
+    "Menu": "Lunch Specials",
+    "Category": "Bento Box Specials",
+    "Item": "Beef Teriyaki",
+    "Price": 11.95,
+    "Note": "",
+    "Modifier1": "",
+    "Modifier2": ""
+  },
+  {
+    "Menu": "Lunch Specials",
+    "Category": "Bento Box Specials",
+    "Item": "Salmon Teriyaki",
+    "Price": 13.95,
+    "Note": "",
+    "Modifier1": "",
+    "Modifier2": ""
+  },
+  {
+    "Menu": "Lunch Specials",
+    "Category": "Bento Box Specials",
+    "Item": "Shrimp Teriyaki",
+    "Price": 13.95,
+    "Note": "",
+    "Modifier1": "",
+    "Modifier2": ""
+  },
+  {
+    "Menu": "Lunch Specials",
+    "Category": "Bento Box Specials",
+    "Item": "Tonkatsu",
+    "Price": 12.95,
+    "Note": "Breaded pork cutlet",
+    "Modifier1": "",
+    "Modifier2": ""
+  },
+  {
+    "Menu": "Lunch Specials",
+    "Category": "Bento Box Specials",
+    "Item": "Unagi (BBQ eel)",
+    "Price": 14.95,
+    "Note": "",
+    "Modifier1": "",
+    "Modifier2": ""
+  },
+  {
+    "Menu": "Lunch Specials",
+    "Category": "Bento Box Specials",
+    "Item": "Spicy Fish Cutlet",
+    "Price": 12.95,
+    "Note": "",
+    "Modifier1": "",
+    "Modifier2": ""
+  },
+  {
+    "Menu": "Lunch Specials",
+    "Category": "Bento Box Specials",
+    "Item": "Chicken Cutlet",
+    "Price": 12.95,
+    "Note": "",
+    "Modifier1": "",
+    "Modifier2": ""
+  },
+  {
+    "Menu": "Lunch Specials",
+    "Category": "Bento Box Specials",
+    "Item": "Veggie Bento",
+    "Price": 11.95,
+    "Note": "3pc Tofu, 4pc Veggie Tempura. Option: Sweet Potato or Avocado Maki. Note: Not Served with Rice",
+    "Modifier1": "",
+    "Modifier2": ""
+  },
+  {
+    "Menu": "Lunch Specials",
+    "Category": "Ramen",
+    "Item": "Chashu Ramen",
+    "Price": 11.95,
+    "Note": "",
+    "Modifier1": "",
+    "Modifier2": ""
+  },
+  {
+    "Menu": "Lunch Specials",
+    "Category": "Ramen",
+    "Item": "Tenderous Ribs Ramen",
+    "Price": 11.95,
+    "Note": "",
+    "Modifier1": "",
+    "Modifier2": ""
+  },
+  {
+    "Menu": "Lunch Specials",
+    "Category": "Stir-fry Teriyaki Bowls",
+    "Item": "Chicken Teriyaki Bowls",
+    "Price": 11.95,
+    "Note": "Crab, Salmon, Scallop, Shrimp",
+    "Modifier1": "",
+    "Modifier2": ""
+  },
+  {
+    "Menu": "Lunch Specials",
+    "Category": "Stir-fry Teriyaki Bowls",
+    "Item": "Beef Teriyaki Bowls",
+    "Price": 11.95,
+    "Note": "",
+    "Modifier1": "",
+    "Modifier2": ""
+  },
+  {
+    "Menu": "Lunch Specials",
+    "Category": "Stir-fry Teriyaki Bowls",
+    "Item": "Shrimp Teriyaki Bowls",
+    "Price": 12.95,
+    "Note": "",
+    "Modifier1": "",
+    "Modifier2": ""
+  },
+  {
+    "Menu": "Lunch Specials",
+    "Category": "Stir-fry Teriyaki Bowls",
+    "Item": "Seafood Teriyaki Bowls",
+    "Price": 13.95,
+    "Note": "",
+    "Modifier1": "",
+    "Modifier2": ""
+  },
+  {
+    "Menu": "Lunch Specials",
+    "Category": "Sushi and Sashimi Lunch",
+    "Item": "Mini Sushi",
+    "Price": 9.95,
+    "Note": "3 Nigiri, 3 Cali, 3 BC Roll",
+    "Modifier1": "",
+    "Modifier2": ""
+  },
+  {
+    "Menu": "Lunch Specials",
+    "Category": "Sushi and Sashimi Lunch",
+    "Item": "Sushi Lunch",
+    "Price": 12.95,
+    "Note": "5 Nigiri, 3 Cali, 3 Sp Salmon",
+    "Modifier1": "",
+    "Modifier2": ""
+  },
+  {
+    "Menu": "Lunch Specials",
+    "Category": "Sushi and Sashimi Lunch",
+    "Item": "Sashimi Lunch",
+    "Price": 13.95,
+    "Note": "2 Salmon, 2 Tuna, 2 Snapper, 2 Clam, 2 Albacore)",
+    "Modifier1": "",
+    "Modifier2": ""
+  },
+  {
+    "Menu": "Lunch Specials",
+    "Category": "Sushi and Sashimi Lunch",
+    "Item": "101 Deluxe",
+    "Price": 17.95,
+    "Note": "3 Nigiri, 6 Sashimi, 6 Maki",
+    "Modifier1": "",
+    "Modifier2": ""
+  },
+  {
+    "Menu": "Lunch Specials",
+    "Category": "Sushi and Sashimi Lunch",
+    "Item": "101 Deluxe for Two",
+    "Price": 34.95,
+    "Note": "6 Nigiri, 12 Sashimi, 12 Maki",
+    "Modifier1": "",
+    "Modifier2": ""
+  },
+  {
+    "Menu": "Lunch Specials",
+    "Category": "Sushi and Sashimi Lunch",
+    "Item": "Mini Maki",
+    "Price": 9.95,
+    "Note": "3 Cali, 3 Sp Salmon, 3 Tekka Maki",
+    "Modifier1": "",
+    "Modifier2": ""
+  },
+  {
+    "Menu": "Lunch Specials",
+    "Category": "Sushi and Sashimi Lunch",
+    "Item": "Maki Lunch",
+    "Price": 11.95,
+    "Note": "6 Cali, 3 Sp Salmon, 3 BC Roll",
+    "Modifier1": "",
+    "Modifier2": ""
+  },
+  {
+    "Menu": "Lunch Specials",
+    "Category": "Sushi and Sashimi Lunch",
+    "Item": "Gianto~oh Maki",
+    "Price": 15.95,
+    "Note": "6 Cali, 3 Sp Salmon, 3 BC Roll",
+    "Modifier1": "",
+    "Modifier2": ""
+  },
+  {
+    "Menu": "Lunch Specials",
+    "Category": "Sushi and Sashimi Lunch",
+    "Item": "Veggie Maki",
+    "Price": 9.95,
+    "Note": "3 Sweet potato, 3 Firecracker Avo, 3 Seaweed Cuke",
+    "Modifier1": "",
+    "Modifier2": ""
+  }
+]
