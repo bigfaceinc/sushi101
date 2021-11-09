@@ -12,7 +12,7 @@ export const Footer = () => {
               <Typography variant='h5' color="white">Business Hours</Typography>
             </Grid>
             <Grid item >
-              <Typography color="white">MON-WED: 11:30pm - 9pm</Typography>
+              <Typography color="white">MON-WED: 11:30am - 9pm</Typography>
             </Grid>
             <Grid item >
               <Typography color="white">THUR-SAT: 11:30am - 10pm</Typography>
@@ -28,7 +28,7 @@ export const Footer = () => {
             <Grid item >
               <Typography color="white">Address:</Typography>
               <Typography color="white">912 Cole Harbour Road, Unit 13</Typography>
-              <Typography color="white">Dartmouth, NS B2V 2J5</Typography>
+              <Typography color="white">Dartmouth, NS B2V 2A8</Typography>
             </Grid>
             <Grid item >
               <Typography color="white">Phone number:</Typography>
