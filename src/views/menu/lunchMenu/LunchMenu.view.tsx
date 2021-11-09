@@ -2,6 +2,7 @@ import { Container, Grid } from '@mui/material'
 import { CategoryTitle, MenuHeader, MenuItem } from '../Menu.component'
 import { menuRoutes } from '@config/router'
 import { MenuProps } from '../Menu.type'
+import { Footer } from '@components/layout/Footer/Footer'
 
 
 
@@ -33,7 +34,7 @@ export const LunchMenuView = ({ listMap }: MenuProps) => {
         </Grid>
       </Grid>
     </Container>
-
+    <Footer/>
   </>
 
 }
