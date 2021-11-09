@@ -21,7 +21,7 @@ export const Footer = () => {
               <Typography color="white">SUN: 12pm - 9pm</Typography>
             </Grid>
           </Grid>
-          <Grid item xs={12} sm container py={4} direction="column" spacing={1}>
+          <Grid item xs={12} sm container py={4} direction="column" spacing={1} id="contact">
             <Grid item py={2}>
               <Typography variant='h5' color="white">Contact</Typography>
             </Grid>

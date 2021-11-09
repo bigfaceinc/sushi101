@@ -10,7 +10,7 @@ import Head from 'next/head'
 
 function MyApp({ Component, pageProps }: AppProps) {
 
-  const title = "Sushi 101 | Japanese Restaurant | Cole Harbour, Nova Scotia, Canada"
+  const title = "Sushi 101 | Japanese Restaurant at Dartmouth, Nova Scotia, Canada"
 
   return <>
     <Head>
