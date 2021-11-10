@@ -10,11 +10,6 @@ export const menuStyleState = atom<SxProps<Theme>>({
   }
 });
 
-// export const menuObserverRef = atom<HTMLDivElement | null  >({
-//   key: "menuObserverRef" + nanoid(),
-//   default: null
-// })
-
 export const menuInterSectingState = atom({
   key: "menuInterSectingState" + nanoid(),
   default: false

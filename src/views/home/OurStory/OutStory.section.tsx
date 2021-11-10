@@ -3,6 +3,8 @@ import { Grid, Paper, Typography } from '@mui/material'
 import Image from 'next/image'
 import { useRecoilValue } from 'recoil'
 import { story } from './OurStory.type'
+import { ourStoryBackgroundCss } from './OutStory.component'
+import { Box } from "@mui/system";
 
 export const OurStory = () => {
 
@@ -48,10 +50,7 @@ const OurStoryLaptop = () => {
 
         </Grid>
       </Grid>
-      <Grid item container xs={6} sx={{ position: "relative", height: 320, width: 300 }}>
-        <img
-          height="100%"
-          src={'./img/home/story-background.jpg'} alt="story about us background image" />
+      <Grid item container xs={6} sx={{borderRadius: 1, ...ourStoryBackgroundCss}}>
       </Grid>
     </Grid>
   </Paper>
@@ -60,24 +59,15 @@ const OurStoryLaptop = () => {
 const OurStoryMobile = () => {
 
   return <Paper id="about">
-    <Grid container direction="column">
-      <div style={{
-        height: 160,
-        width: "100%",
-        backgroundImage: "url('./img/home/story-background.jpg')",
-        backgroundPosition: "center center",
-        backgroundSize: "cover",
-        borderTopLeftRadius: 5,
-        borderTopRightRadius: 5,
-      }}>
-      </div>
+    <Grid container direction="column" >
+      <Box sx={{ minHeight: 240, borderTopLeftRadius: 1, borderTopRightRadius: 1, ...ourStoryBackgroundCss }}></Box>
 
       <Grid container item direction="column" justifyContent="center" alignItems={"center"} xs={6} p={2}>
         <Grid item >
           <Typography variant='h5' sx={{ color: "primary.main", fontWeight: "bold" }} >Our Story</Typography>
         </Grid>
-        <Grid item sx={{ p: 2 }} container  spacing={2} direction="column" >
-        <Grid item>
+        <Grid item sx={{ p: 2 }} container spacing={2} direction="column" >
+          <Grid item>
             <Typography variant="body1" align='left' >
               {story.line1}
             </Typography>

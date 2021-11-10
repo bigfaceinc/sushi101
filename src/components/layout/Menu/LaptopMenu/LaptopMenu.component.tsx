@@ -37,16 +37,18 @@ export const LaptopMenuButton = ({ active = false, title, to = "", onClick, chil
     setAnchorEl(null);
   };
 
-  const { variant, color } = useMemo(() => {
+  const { variant, color, textShadow } = useMemo(() => {
     if (active) {
       return {
         variant: "contained",
-        color: "primary"
+        color: "primary",
+        textShadow: undefined,
       }
     } else {
       return {
         variant: "text",
-        color: "secondary"
+        color: "secondary",
+        textShadow: "-1px 0 10px white, 0 1px 10px white, 1px 0 10px white, 0 -1px 10px white",
       }
     }
   }, [active])
@@ -85,13 +87,14 @@ export const LaptopMenuButton = ({ active = false, title, to = "", onClick, chil
   return <>
     <Button
       variant={variant as any}
+      color={color as any}
       onClick={(e) => {
         setAnchorEl(e.currentTarget)
         if (onClick) {
           onClick()
         }
       }}
-      sx={{ minWidth: 100, color: "white" }}
+      sx={{ minWidth: 100, textShadow }}
       disableRipple
       disableTouchRipple
       disableFocusRipple

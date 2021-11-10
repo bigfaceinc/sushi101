@@ -22,7 +22,7 @@ export const MobileMenu = () => {
           edge="start"
           color="inherit"
           aria-label="menu"
-          sx={{ mr: 1 }}
+          sx={{ mr: 1, color: menuIsIntersecting ? "black" : "white" }}
           onClick={() => setOpenDrawer(true)}
         >
           <MenuIcon />
@@ -82,7 +82,7 @@ const MobileMenuList = () => {
       {isActive && menuItem.children!.map((item, index) => {
         const isNotLastItem = index !== menuItem.children!.length - 1
 
-        return <><ListItemButton key={item.title} sx={{backgroundColor: "grey.100"}}>
+        return <><ListItemButton key={item.title} sx={{ backgroundColor: "grey.100" }}>
           <Link href={item.path ?? ""} passHref >
             <ListItemText primary={item.title} sx={{ textAlign: "center" }} />
           </Link>
