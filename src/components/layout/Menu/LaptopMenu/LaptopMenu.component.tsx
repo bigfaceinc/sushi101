@@ -14,7 +14,7 @@ export const Logo = () => {
   // eslint-disable-next-line @next/next/no-img-element
   return <Link href="/" passHref><img
     src={"./img/home/logo.png"}
-    height="100%"
+    width="100%"
     alt="sushi101-menubar-logo" />
   </Link>
 }
