@@ -62,12 +62,12 @@ export const MenuHeader = ({menuTitle}: {menuTitle: string}) => {
 
     <Box sx={{
       backgroundSize: "cover",
-      height: "240px",
+      height: "30vh",
       width: "100%",
       // menu image cover
-      backgroundImage: `url('/img/menu/menu-background.jpg')`,
-      backgroundPosition: "center ",
-      backgroundRepeat: "no-repeat"
+      backgroundImage: `url('/img/menu/menu-background.jpg?webp')`,
+      backgroundPosition: "-10% 40%",
+      backgroundRepeat: "no"
     }}>
       <Grid container justifyContent="start" alignItems="flex-end" sx={{ height: "100%", pb: 2, textShadow: "1px 1px 3px lightgray" }} >
         <Container>
