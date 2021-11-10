@@ -46,7 +46,7 @@ export const MenuItem = ({ description, price, title }: { title: string, price: 
 
 
 
-export const MenuHeader = ({menuTitle}: {menuTitle: string}) => {
+export const MenuHeader = ({ menuTitle }: { menuTitle: string }) => {
 
   // console.log(menuJson);
 
@@ -66,13 +66,18 @@ export const MenuHeader = ({menuTitle}: {menuTitle: string}) => {
       width: "100%",
       // menu image cover
       backgroundImage: `url('/img/menu/menu-background.jpg?webp')`,
-      backgroundPosition: "-10% 40%",
+      backgroundPosition: "0% 23%",
       backgroundRepeat: "no"
     }}>
-      <Grid container justifyContent="start" alignItems="flex-end" sx={{ height: "100%", pb: 2, textShadow: "1px 1px 3px lightgray" }} >
+      <Grid container justifyContent="start" alignItems="flex-end" sx={{
+        height: "100%",
+        pb: 2,
+        textShadow:
+          "-1px 0 20px rgba(255,255,255, 0.2), 0 1px 20px rgba(255,255,255, 0.2), 1px 0 20px rgba(255,255,255, 0.2), 0 -1px 20px rgba(255,255,255, 0.2)"
+      }} >
         <Container>
 
-          <Typography variant='h4' sx={{ color: "primary.main" }}>
+          <Typography variant='h4' sx={{ color: "primary.main", fontWeight: 'bold' }}>
             {menuTitle}
           </Typography>
         </Container>
