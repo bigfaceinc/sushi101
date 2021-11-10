@@ -2,6 +2,7 @@ import { breakPointState } from '@components/global/GlobalHooks/breakPoint/break
 import { Grid, Paper, Typography } from '@mui/material'
 import Image from 'next/image'
 import { useRecoilValue } from 'recoil'
+import { story } from './OurStory.type'
 
 export const OurStory = () => {
 
@@ -28,15 +29,23 @@ const OurStoryLaptop = () => {
         <Grid item >
           <Typography variant='h5' sx={{ color: "primary.main", fontWeight: "bold" }} >Our Story</Typography>
         </Grid>
-        <Grid item sx={{ p: 2 }} container >
-          <Typography variant="body1" align='left' >
-            SUSHI101 hosts the finest Japanese Sushi dining/take-out experiences in Atlantic Canada.
-          </Typography>
+        <Grid item sx={{ p: 2 }} container spacing={2} direction="column">
+          <Grid item>
+            <Typography variant="body1" align='left' >
+              {story.line1}
+            </Typography>
+          </Grid>
+          <Grid item>
+            <Typography variant="body1" align='left'>
+              {story.line2}
+            </Typography>
+          </Grid>
+          <Grid item>
+            <Typography variant="body1" align='left'>
+              {story.line3}
+            </Typography>
+          </Grid>
 
-          <Typography variant="body1" align='left'>
-            SUSHI 101 strives to make its brand the Nation{"'"}s favourite finest Japanese Sushi and
-            a best Ramen dining experience with customer-first business philosophy.
-          </Typography>
         </Grid>
       </Grid>
       <Grid item container xs={6} sx={{ position: "relative", height: 320, width: 300 }}>
@@ -67,15 +76,22 @@ const OurStoryMobile = () => {
         <Grid item >
           <Typography variant='h5' sx={{ color: "primary.main", fontWeight: "bold" }} >Our Story</Typography>
         </Grid>
-        <Grid item sx={{ p: 2 }} container >
-          <Typography variant="body1" align='left' >
-            SUSHI101 hosts the finest Japanese Sushi dining/take-out experiences in Atlantic Canada.
-          </Typography>
-
-          <Typography variant="body1" align='left'>
-            SUSHI 101 strives to make its brand the Nation{"'"}s favourite finest Japanese Sushi and
-            a best Ramen dining experience with customer-first business philosophy.
-          </Typography>
+        <Grid item sx={{ p: 2 }} container  spacing={2} direction="column" >
+        <Grid item>
+            <Typography variant="body1" align='left' >
+              {story.line1}
+            </Typography>
+          </Grid>
+          <Grid item>
+            <Typography variant="body1" align='left'>
+              {story.line2}
+            </Typography>
+          </Grid>
+          <Grid item>
+            <Typography variant="body1" align='left'>
+              {story.line3}
+            </Typography>
+          </Grid>
         </Grid>
       </Grid>
     </Grid>

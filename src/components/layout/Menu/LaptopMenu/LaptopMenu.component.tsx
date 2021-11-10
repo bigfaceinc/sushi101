@@ -1,11 +1,9 @@
-
-
 import { Box, Button, Container, fabClasses, Grid, Menu, MenuItem, MenuProps, styled } from '@mui/material'
 import { alpha, SxProps, Theme } from '@mui/system'
 import React, { useMemo } from 'react'
-import Link from 'next/link'
 import { MenuItemIntf } from '../Menu.type'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export const MenuBorder = () => {
   const borderStyle: SxProps<Theme> = { height: 18, borderRight: 2, borderRightColor: "primary.main" }
@@ -14,10 +12,11 @@ export const MenuBorder = () => {
 
 export const Logo = () => {
   // eslint-disable-next-line @next/next/no-img-element
-  return <img
+  return <Link href="/" passHref><img
     src={"./img/home/logo.png"}
     height="100%"
     alt="sushi101-menubar-logo" />
+  </Link>
 }
 
 
@@ -84,13 +83,15 @@ export const LaptopMenuButton = ({ active = false, title, to = "", onClick, chil
 
 
   return <>
-    <Button variant={variant as any} color={color as any} onClick={(e) => {
-      setAnchorEl(e.currentTarget)
-      if (onClick) {
-        onClick()
-      }
-    }}
-      sx={{ minWidth: 100 }}
+    <Button
+      variant={variant as any}
+      onClick={(e) => {
+        setAnchorEl(e.currentTarget)
+        if (onClick) {
+          onClick()
+        }
+      }}
+      sx={{ minWidth: 100, color: "white" }}
       disableRipple
       disableTouchRipple
       disableFocusRipple
