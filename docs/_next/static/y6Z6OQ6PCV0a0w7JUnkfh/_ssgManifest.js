@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Flunch","\u002Ftakeout","\u002Fmenu"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
