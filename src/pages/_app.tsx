@@ -6,17 +6,19 @@ import type { AppProps } from 'next/app'
 import { RecoilRoot } from 'recoil'
 import { CssBaseline } from '@mui/material'
 import Head from 'next/head'
+import { siteInfo } from '@config/siteInfo'
 
 
 function MyApp({ Component, pageProps }: AppProps) {
 
-  const title = "Sushi 101 | Japanese Restaurant at Dartmouth, Nova Scotia, Canada"
 
   return <>
     <Head>
       <meta name="viewport" content="initial-scale=1, width=device-width" />
-      <title>{title}</title>
-      <meta property="og:title" content={title} key="title" />
+      <title>{siteInfo.title}</title>
+      <meta name="description" content={siteInfo.description} />
+      <meta name="keywords" content={siteInfo.keywords} />
+      <meta property="og:title" content={siteInfo.title} key="title" />
       <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png" />
       <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
       <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
