@@ -65,7 +65,7 @@ export const MenuHeader = ({menuTitle}: {menuTitle: string}) => {
       height: "240px",
       width: "100%",
       // menu image cover
-      backgroundImage: `url('/img/menu/menu-background.webp')`,
+      backgroundImage: `url('/img/menu/menu-background.jpg')`,
       backgroundPosition: "center ",
       backgroundRepeat: "no-repeat"
     }}>
