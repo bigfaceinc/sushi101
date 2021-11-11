@@ -3,6 +3,9 @@ const withOptimizedImages = require('next-optimized-images');
 
 /** @type {import('next').NextConfig} */
 module.exports = withOptimizedImages({
-  reactStrictMode: true,
-  handleImages: ['jpeg', 'png'],
+    images: {
+        disableStaticImages: true
+    },
+    reactStrictMode: true,
+    handleImages: ['jpeg', 'jpg', 'png'],
 })

@@ -15,5 +15,5 @@ export const breakPointState = atom<BreakPointState>({
     isMobile: false,
     isTablet: false,
     isLaptop: false
-  }, // default value (aka initial value)
+  }
 });
