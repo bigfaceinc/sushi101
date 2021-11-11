@@ -8,7 +8,14 @@ jobs:
         uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: '16'
       - name: Yarn install
         run: yarn install
-
+      - name: Yarn export
+        run: yarn export
+      - name: Git add
+        run: git add .
+      - name: Git commit
+        run: 'git commit -m "Github actions: update /docs"'
+      - name: Git push
+        run: 'git push origin main:main'
