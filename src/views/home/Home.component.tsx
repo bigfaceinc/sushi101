@@ -1,7 +1,7 @@
 import { Box, SxProps, Theme } from "@mui/system";
 import { Button, Container, Grid } from '@mui/material'
 import { useMenuStyle } from '../../components/layout/Menu/useMenuStyle.hook'
-import { Logo } from "@components/layout/Menu/LaptopMenu/LaptopMenu.component";
+import { LogoTransparent } from "@components/layout/Menu/LaptopMenu/LaptopMenu.component";
 import Link from 'next/link'
 import { menuRoutes } from "@config/router";
 import { siteInfo } from "@config/siteInfo";
@@ -36,17 +36,13 @@ export const HeroText = () => {
         <Grid item container spacing={1}>
           <Grid item xs>
             <Link href={menuRoutes.regular.path} passHref>
-              <Button fullWidth variant='contained' sx={{ fontWeight: "bold" }}>
+              <Button fullWidth variant='contained' sx={{ fontWeight: "500" }}>
                 View Menu
               </Button>
             </Link>
           </Grid>
           <Grid item xs>
-            <a href={`tel:${siteInfo.phoneNumber}`}>
-              <Button fullWidth variant='outlined' sx={{ background: "rgba(255,255,255, 0.45)", fontWeight: "bold" }} >
-                Call Us
-              </Button>
-            </a>
+            <CallUsButton/>
             {/* <Link href={menuRoutes.takeOut.path} passHref>
               <Button fullWidth variant='outlined' sx={{ background: "rgba(255,255,255, 0.45)" }}>
                 Take-Out Menu
@@ -57,4 +53,14 @@ export const HeroText = () => {
       </Grid>
     </Grid>
   </Container>
+}
+
+export const CallUsButton = () => {
+  return <a href={`tel:${siteInfo.phoneNumber}`}>
+    <Button fullWidth variant='outlined'
+      sx={{ background: "rgba(255,255,255, 0.7)", color: "primary.main" }}
+    >
+      Call Us
+    </Button>
+  </a>
 }

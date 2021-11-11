@@ -1,7 +1,7 @@
 import { Container, Grid } from '@mui/material'
-import { CategoryTitle, MenuHeader, MenuItem } from '../Menu.component'
+import { CategoryTitle, MenuHeader, MenuItem } from '../Menus.component'
 import { menuRoutes } from '@config/router'
-import { MenuProps } from '../Menu.type'
+import { MenuProps } from '../Menus.type'
 import { Footer } from '@components/layout/Footer/Footer'
 
 

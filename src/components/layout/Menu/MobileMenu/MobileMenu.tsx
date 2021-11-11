@@ -7,37 +7,36 @@ import { MenuItemIntf, menuList } from '../Menu.type';
 import Link from 'next/link'
 import { menuInterSectingState } from '../Menu.recoil';
 import { ExpandLess, ExpandMore } from '@mui/icons-material';
-import { Logo } from '../LaptopMenu/LaptopMenu.component';
+import { LogoTransparent, LogoWhite } from '../LaptopMenu/LaptopMenu.component';
 
 export const MobileMenu = () => {
   const [openDrawer, setOpenDrawer] = useState(false)
   const menuIsIntersecting = useRecoilValue(menuInterSectingState)
 
-  return <><Toolbar >
-    <Grid sx={{ height: 56 }}
-      container justifyContent={"space-between"} alignItems={"center"}>
-      <Grid item>
-        <IconButton
-          size="large"
-          edge="start"
-          color="inherit"
-          aria-label="menu"
-          sx={{ mr: 1, color: menuIsIntersecting ? "black" : "white" }}
-          onClick={() => setOpenDrawer(true)}
-        >
-          <MenuIcon />
-        </IconButton>
+  return <>
+    <Toolbar >
+      <Grid sx={{ height: 56 }}
+        container justifyContent={"space-between"} alignItems={"center"}>
+        <Grid item>
+          <IconButton
+            size="large"
+            edge="start"
+            color="inherit"
+            aria-label="menu"
+            sx={{ mr: 1, color: menuIsIntersecting ? "black" : "white" }}
+            onClick={() => setOpenDrawer(true)}
+          >
+            <MenuIcon />
+          </IconButton>
+        </Grid>
+        {menuIsIntersecting && <Grid item container alignItems={"center"} sx={{ height: "90%", width: 80, position: "relative" }}>
+          <LogoWhite />
+        </Grid>}
       </Grid>
 
-      {menuIsIntersecting &&
-        <Grid item p={0.5} sx={{ height: "90%", width: 80, position: "relative" }}>
-          <Logo />
-        </Grid>
-      }
-    </Grid>
+    </Toolbar>
 
 
-  </Toolbar>
     <Drawer
       anchor={"left"}
       open={openDrawer}
@@ -45,11 +44,6 @@ export const MobileMenu = () => {
     >
       <Grid container direction="column" sx={{ width: 200 }}>
         <MobileMenuList />
-        {/* <Divider />
-        <MobileMenuList text="home" />
-        <Divider />
-        <MobileMenuList text="home" />
-        <Divider /> */}
       </Grid>
 
     </Drawer>

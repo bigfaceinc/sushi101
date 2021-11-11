@@ -20,7 +20,7 @@ export function HomeView() {
       </Box>
     </div>
 
-    <Container sx={{ position: 'relative', py: 4 }} >
+    <Container sx={{ position: 'relative', top: -30 }} >
       <OurStory  />
     </Container>
     

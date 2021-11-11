@@ -1,8 +1,8 @@
 import { HomeView } from '@views/home/Home.view'
 import type { GetStaticProps, NextPage } from 'next'
-import menuJson from '@views/menu/takeoutMenu/TakeoutMenu.json'
-import { MenuRow } from '@views/menu/Menu.type'
-import { TakeoutMenuView } from '@views/menu/takeoutMenu/TakeoutMenu.view'
+import menuJson from '@views/menus/takeoutMenu/TakeoutMenu.json'
+import { MenuRow } from '@views/menus/Menus.type'
+import { TakeoutMenuView } from '@views/menus/takeoutMenu/TakeoutMenu.view'
 
 
 interface MenuProps {

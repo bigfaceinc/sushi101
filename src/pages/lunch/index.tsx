@@ -1,7 +1,7 @@
-import { LunchMenuView } from '@views/menu/lunchMenu/LunchMenu.view'
+import { LunchMenuView } from '@views/menus/lunchMenu/LunchMenu.view'
 import type { GetStaticProps, NextPage } from 'next'
-import menuJson from '@views/menu/lunchMenu/LunchMenu.json'
-import { MenuRow } from '@views/menu/Menu.type'
+import menuJson from '@views/menus/lunchMenu/LunchMenu.json'
+import { MenuRow } from '@views/menus/Menus.type'
 
 
 

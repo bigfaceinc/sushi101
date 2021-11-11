@@ -10,10 +10,19 @@ export const MenuBorder = () => {
   return <Box sx={borderStyle} />
 }
 
-export const Logo = () => {
+export const LogoTransparent = () => {
   // eslint-disable-next-line @next/next/no-img-element
   return <Link href="/" passHref><img
     src={"./img/home/logo.png"}
+    width="100%"
+    alt="sushi101-menubar-logo" />
+  </Link>
+}
+
+export const LogoWhite = () => {
+  // eslint-disable-next-line @next/next/no-img-element
+  return <Link href="/" passHref><img
+    src={"./img/home/logo-white.png"}
     width="100%"
     alt="sushi101-menubar-logo" />
   </Link>
