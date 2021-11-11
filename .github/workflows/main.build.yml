@@ -6,9 +6,12 @@ jobs:
     steps:
       - name: Check out repository code
         uses: actions/checkout@v2
+      - run: git config --global user.email "action@github.com"
+      - run: git config --global user.name "GitHub Action"
       - uses: actions/setup-node@v2
         with:
           node-version: '16'
+          cache: 'yarn'
       - name: Yarn install
         run: yarn install
       - name: Yarn export
