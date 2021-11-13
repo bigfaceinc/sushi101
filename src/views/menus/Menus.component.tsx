@@ -65,13 +65,13 @@ export const MenuHeader = ({menuCategory: {title, background}}: { menuCategory: 
       width: "100%",
       // menu image cover
       backgroundImage: `url(${background})`,
-      backgroundPosition: "50% 20%",
+      backgroundPosition: "95% 50%",
       backgroundRepeat: "no"
     }}>
       <Grid container justifyContent="start" alignItems="flex-end" sx={{
         height: "100%",
         pb: 1,
-        textShadow: "1px 1px 3px rgba(0,0,0, 0.3)"
+        textShadow: "2px 2px 3px rgba(0,0,0, 0.5)"
         // textShadow:
         //   "-1px 0 20px rgba(255,255,255, 0.2), 0 1px 20px rgba(255,255,255, 0.2), 1px 0 20px rgba(255,255,255, 0.2), 0 -1px 20px rgba(255,255,255, 0.2)"
       }}>

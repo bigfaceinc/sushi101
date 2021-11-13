@@ -1,7 +1,10 @@
 import {menuRoutes} from "@config/router";
-import regularBackground from './img/dine-in-menu-background.jpg'
-import lunchBackground from './img/lunch-special-menu-background.jpg'
-import takeoutBackground from './img/take-out-menu-background.jpg'
+// import regularBackground from './img/dine-in-menu-background.jpg'
+import regularBackground from './img/dine-in-menu-background-cropped.jpg'
+// import lunchBackground from './img/lunch-special-menu-background.jpg'
+import lunchBackground from './img/lunch-special-menu-background-cropped.jpg'
+// import takeoutBackground from './img/take-out-menu-background.jpg'
+import takeoutBackground from './img/take-out-menu-background-cropped.jpg'
 
 export interface MenuProps {
   listMap: Record<string, MenuRow[]>
