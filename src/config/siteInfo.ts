@@ -1,4 +1,5 @@
 export const siteInfo = {
+  domain: "https://sushi101.ca",
   title: "Sushi 101 | Japanese Restaurant at Dartmouth, Nova Scotia, Canada",
   description: "Japanese Restaurant with the best chef in town",
   keywords: "Sushi, Dartmouth, Japanese Restaurant",
