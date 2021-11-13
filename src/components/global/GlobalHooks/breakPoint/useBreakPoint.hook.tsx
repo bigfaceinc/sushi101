@@ -40,12 +40,17 @@ export const useBreakpointHook = () => {
 
     // Add event listener
     window.addEventListener("resize", handleResize);
+    window.addEventListener("focus", handleResize);
 
     // Call handler right away so state gets updated with initial window size
     handleResize();
 
     // Remove event listener on cleanup
-    return () => window.removeEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize)
+      window.removeEventListener("focus", handleResize)
+
+    };
 
   }, [setBreakpoint]);
 
