@@ -3,6 +3,9 @@ const withPWA = require('next-pwa')
 
 /** @type {import('next').NextConfig} */
 module.exports = withOptimizedImages(withPWA({
+    pwa: {
+        dest: 'public'
+    },
     images: {
         disableStaticImages: true
     },
