@@ -35,9 +35,9 @@ export const HeroText = () => {
         </Grid>
         <Grid item container spacing={1}>
           <Grid item xs>
-            <Link href={menuRoutes.regular.path} passHref>
+            <Link href={menuRoutes.takeOut.path} passHref>
               <Button fullWidth variant='contained' sx={{ fontWeight: "500" }}>
-                View Menu
+                Takeout Menu
               </Button>
             </Link>
           </Grid>
