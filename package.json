@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "export": "next build && next export -o ./docs",
+    "pwa-copy": "cp ./.next/{sw.js,workbox*.js} ./docs/",
+    "export": "next build && next export -o ./docs && yarn pwa-copy",
     "start": "next start",
     "lint": "next lint"
   },
