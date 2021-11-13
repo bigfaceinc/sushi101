@@ -7,7 +7,7 @@ module.exports = withOptimizedImages(withPWA({
     pwa: {
         dest: 'public',
         runtimeCaching,
-        buildExcludes: [/chunks\/images\/.*$/, /middleware-manifes\.json$/]
+        buildExcludes: [/middleware-manifest.json$/]
     },
     images: {
         disableStaticImages: true
