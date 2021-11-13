@@ -1,7 +1,7 @@
 import { Container, Grid } from '@mui/material'
 import { CategoryTitle, MenuHeader, MenuItem } from '../Menus.component'
 import { menuRoutes } from '@config/router'
-import { MenuProps } from '../Menus.type'
+import {allMenu, MenuProps} from '../Menus.type'
 import { Footer } from '@components/layout/Footer/Footer'
 
 export const TakeoutMenuView = ({ listMap }: MenuProps) => {
@@ -19,7 +19,7 @@ export const TakeoutMenuView = ({ listMap }: MenuProps) => {
 
 
   return <>
-    <MenuHeader menuTitle={menuRoutes.takeOut.title} />
+    <MenuHeader menuCategory={allMenu.takeoutMenu}/>
     <Container>
       <Grid container spacing={8}>
         <Grid item xs={12} md={6}>
@@ -38,7 +38,6 @@ export const TakeoutMenuView = ({ listMap }: MenuProps) => {
         <Column category='Vegetarian Maki' />
         <Column category='Sushi & Sashimi' />
         <Column category='Fusion Special' />
-        
 
         </Grid>
       </Grid>

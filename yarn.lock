@@ -846,6 +846,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/ua-parser-js@npm:^0.7.36":
+  version: 0.7.36
+  resolution: "@types/ua-parser-js@npm:0.7.36"
+  checksum: 8c24d4dc12ed1b8b98195838093391c358c81bf75e9cae0ecec8f7824b441e069daaa17b974a3e257172caddb671439f0c0b44bf43bfcf409b7a574a25aab948
+  languageName: node
+  linkType: hard
+
 "@typescript-eslint/parser@npm:^4.20.0":
   version: 4.33.0
   resolution: "@typescript-eslint/parser@npm:4.33.0"
@@ -7547,6 +7554,7 @@ __metadata:
     "@types/lodash": ^4.14.176
     "@types/node": 16.11.6
     "@types/react": 17.0.34
+    "@types/ua-parser-js": ^0.7.36
     eslint: 7
     eslint-config-next: 12.0.3
     imagemin-mozjpeg: ^9.0.0
@@ -7559,6 +7567,7 @@ __metadata:
     react-dom: 17.0.2
     recoil: ^0.5.2
     typescript: 4.4.4
+    ua-parser-js: ^1.0.2
     webp-loader: ^0.6.0
   languageName: unknown
   linkType: soft
@@ -7824,6 +7833,13 @@ __metadata:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: bd629ad0da4a15d79aaad56baf3ee7d96f6a181760d430ae77f8c5325df7bffd9edee57544a3970e3651e8b796fe03a5838a7eb39c6d46cc3866c0b23d36a0dd
+  languageName: node
+  linkType: hard
+
+"ua-parser-js@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "ua-parser-js@npm:1.0.2"
+  checksum: ff7f6d79a9c1a38aa85a0e751040fc7e17a0b621bda876838d14ebe55aca4e50e68da0350f181e58801c2d8a35e7db4e12473776e558910c4b7cabcec96aa3bf
   languageName: node
   linkType: hard
 

@@ -4,6 +4,8 @@ import React, { useMemo } from 'react'
 import { MenuItemIntf } from '../Menu.type'
 import Image from 'next/image'
 import Link from 'next/link'
+import logo from '../img/logo.png'
+import logoWhite from '../img/logo-white.png'
 
 export const MenuBorder = () => {
   const borderStyle: SxProps<Theme> = { height: 18, borderRight: 2, borderRightColor: "primary.main" }
@@ -13,7 +15,7 @@ export const MenuBorder = () => {
 export const LogoTransparent = () => {
   // eslint-disable-next-line @next/next/no-img-element
   return <Link href="/" passHref><img
-    src={"./img/home/logo.png"}
+    src={logo}
     width="100%"
     alt="sushi101-menubar-logo" />
   </Link>
@@ -22,7 +24,7 @@ export const LogoTransparent = () => {
 export const LogoWhite = () => {
   // eslint-disable-next-line @next/next/no-img-element
   return <Link href="/" passHref><img
-    src={"./img/home/logo-white.png"}
+    src={logoWhite}
     width="100%"
     alt="sushi101-menubar-logo" />
   </Link>

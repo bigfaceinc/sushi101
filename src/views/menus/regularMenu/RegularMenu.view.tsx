@@ -1,7 +1,7 @@
 import { Container, Grid} from '@mui/material'
 import { CategoryTitle, MenuHeader, MenuItem } from '../Menus.component'
 import { menuRoutes } from '@config/router'
-import { MenuProps } from '../Menus.type'
+import {allMenu, MenuProps} from '../Menus.type'
 import { Footer } from '@components/layout/Footer/Footer'
 
 
@@ -20,7 +20,7 @@ export const RegularMenuView = ({ listMap }: MenuProps) => {
 
 
   return <>
-    <MenuHeader menuTitle={menuRoutes.regular.title} />
+    <MenuHeader menuCategory={allMenu.regularMenu} />
     <Container>
       <Grid container spacing={8}>
         <Grid item xs={12} md={6}>

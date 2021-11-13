@@ -1,9 +1,9 @@
 import { Box, SxProps, Theme } from "@mui/system";
-
+import storyImg from '../img/story-background.jpg'
 
 export const ourStoryBackgroundCss: SxProps<Theme> = {
   backgroundSize: "cover",
-  backgroundImage: `url('./img/home/story-background.jpg')`,
+  backgroundImage: `url(${storyImg})`,
   backgroundPosition: "center center ",
   backgroundRepeat: "no-repeat"
 }

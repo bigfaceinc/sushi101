@@ -7,7 +7,7 @@ import { MenuItemIntf, menuList } from '../Menu.type';
 import Link from 'next/link'
 import { menuInterSectingState } from '../Menu.recoil';
 import { ExpandLess, ExpandMore } from '@mui/icons-material';
-import { LogoTransparent, LogoWhite } from '../LaptopMenu/LaptopMenu.component';
+import { LogoWhite } from '../LaptopMenu/LaptopMenu.component';
 
 export const MobileMenu = () => {
   const [openDrawer, setOpenDrawer] = useState(false)
@@ -76,13 +76,13 @@ const MobileMenuList = () => {
       {isActive && menuItem.children!.map((item, index) => {
         const isNotLastItem = index !== menuItem.children!.length - 1
 
-        return <><ListItemButton key={item.title} sx={{ backgroundColor: "grey.100" }}>
+        return <Fragment key={item.title}><ListItemButton  sx={{ backgroundColor: "grey.100" }}>
           <Link href={item.path ?? ""} passHref >
             <ListItemText primary={item.title} sx={{ textAlign: "center" }} />
           </Link>
         </ListItemButton>
           {isNotLastItem && <Divider />}
-        </>
+        </Fragment>
       })}
     </>
   }
