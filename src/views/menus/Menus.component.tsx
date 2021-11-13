@@ -65,7 +65,7 @@ export const MenuHeader = ({menuCategory: {title, background}}: { menuCategory: 
       width: "100%",
       // menu image cover
       backgroundImage: `url(${background})`,
-      backgroundPosition: "95% 50%",
+      backgroundPosition: "80% 50%",
       backgroundRepeat: "no"
     }}>
       <Grid container justifyContent="start" alignItems="flex-end" sx={{
