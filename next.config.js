@@ -15,3 +15,4 @@ module.exports = withOptimizedImages(withPWA({
     reactStrictMode: true,
     // handleImages: ['jpeg', 'jpg', 'png'],
 }))
+
