@@ -14,7 +14,7 @@ export const BusinessTime = () => {
       <Typography color="white">THUR-SAT: 11:30am - 10pm</Typography>
     </Grid>
     <Grid item >
-      <Typography color="white">SUN: 4:30pm - 9pm</Typography>
+      <Typography color="white">SUN: 3:30pm - 8:30pm</Typography>
     </Grid>
   </>
 }
