@@ -9,7 +9,7 @@ export const BusinessTime = () => {
       <Typography color="white">Dec 24: 12pm-8pm</Typography>
       <Typography color="white">Dec 25: CLOSED</Typography>
       <Typography color="white">Dec 26: 4pm-9pm</Typography>
-      <Typography color="white">Dec 31: 11pm-10pm</Typography>
+      <Typography color="white">Dec 31: 11am-10pm</Typography>
       <Typography color="white">Jan 1: 3pm-8pm</Typography>
     </Grid>
 
