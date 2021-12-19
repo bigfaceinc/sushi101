@@ -4,16 +4,19 @@ import React from 'react'
 
 export const BusinessTime = () => {
   return <>
-    <Grid item py={2}>
-      <Typography variant='h5' color="white">Business Hours</Typography>
+    <Grid item direction="column" id='holiday-hours'>
+      <Typography pb={1} variant='h5' color="white">Holiday Hours</Typography>
+      <Typography color="white">Dec 24: 12pm-8pm</Typography>
+      <Typography color="white">Dec 25: CLOSED</Typography>
+      <Typography color="white">Dec 26: 4pm-9pm</Typography>
+      <Typography color="white">Dec 31: 11pm-10pm</Typography>
+      <Typography color="white">Jan 1: 3pm-8pm</Typography>
     </Grid>
-    <Grid item >
+
+    <Grid item direction="column">
+      <Typography pb={1} variant='h5' color="white">Business Hours</Typography>
       <Typography color="white">MON-WED: 11:30am - 9pm</Typography>
-    </Grid>
-    <Grid item >
       <Typography color="white">THUR-SAT: 11:30am - 10pm</Typography>
-    </Grid>
-    <Grid item >
       <Typography color="white">SUN: 3:30pm - 8:30pm</Typography>
     </Grid>
   </>

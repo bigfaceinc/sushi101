@@ -5,7 +5,9 @@ import { useRecoilState, useResetRecoilState, useSetRecoilState } from 'recoil'
 import { menuInterSectingState, menuStyleState } from '@components/layout/Menu/Menu.recoil'
 import { Sushi101Menu } from '@components/layout/Menu/Menu'
 import { Footer } from '@components/layout/Footer/Footer'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
+import { typography } from '@mui/system'
+import ClearRoundedIcon from '@mui/icons-material/ClearRounded';
 
 export function HomeView() {
   const [menuStyle, setMenuStyle] = useRecoilState(menuStyleState)
@@ -18,15 +20,17 @@ export function HomeView() {
       <Box sx={backgroundCss} >
         <HeroText />
       </Box>
-    </div>
 
-    <Container sx={{ position: 'relative', top: -30 }} >
-      <OurStory  />
-    </Container>
-    
-    <Footer/>
+      <Container sx={{ position: 'relative', top: -30 }} >
+        <OurStory />
+      </Container>
+
+    </div>
+    <Footer />
 
   </>
   )
 }
+
+
 
