@@ -12,11 +12,13 @@ export const Banner = () => {
     return <div style={{ background: 'rgba(0,0,0, 0.3)' }}>
       <Container sx={{ py: 2 }}>
         <Grid container justifyContent={"space-between"} alignItems="center">
-          <Grid item>
+          <Grid item xs>
             <Typography color={'white'} variant="subtitle2">
+            Due to the COVID situation, we now only offer take out at the moment. {' '}
+
               <Link href={'/#holiday-hours'} passHref>
                 <span style={{ textDecoration: 'underline', cursor:'pointer' }}>
-                Our holiday schedule is out!
+                 Please chekcout our holiday schedule here!
                 </span>
               </Link>
               {'  '}If you want a party tray for Chrismas, please contact us 5 days in advance: (902)469-8888
