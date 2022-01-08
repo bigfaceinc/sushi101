@@ -15,13 +15,6 @@ export const Banner = () => {
           <Grid item xs>
             <Typography color={'white'} variant="subtitle2">
             Due to the COVID situation, we now only offer take out at the moment. {' '}
-
-              <Link href={'/#holiday-hours'} passHref>
-                <span style={{ textDecoration: 'underline', cursor:'pointer' }}>
-                 Please chekcout our holiday schedule here!
-                </span>
-              </Link>
-              {'  '}If you want a party tray for Chrismas, please contact us 5 days in advance: (902)469-8888
             </Typography>
           </Grid>
 
