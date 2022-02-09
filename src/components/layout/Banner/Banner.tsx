@@ -14,7 +14,7 @@ export const Banner = () => {
         <Grid container justifyContent={"space-between"} alignItems="center">
           <Grid item xs>
             <Typography color={'white'} variant="subtitle2">
-            Due to the COVID situation, we now only offer take out at the moment. {' '}
+            We are offering dine-in now!
             </Typography>
           </Grid>
 
