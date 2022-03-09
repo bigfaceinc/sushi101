@@ -14,7 +14,7 @@ export const Banner = () => {
         <Grid container justifyContent={"space-between"} alignItems="center">
           <Grid item xs>
             <Typography color={'white'} variant="subtitle2">
-            We will be closed from March 13-16, and we'll be back open on the 17th of March
+            We will be closed from March 13-16, and we will be back open on the 17th of March
             </Typography>
           </Grid>
 
