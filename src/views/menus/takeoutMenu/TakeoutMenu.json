@@ -108,7 +108,7 @@
     "menu": "Takeout Menu",
     "category": "Appetizers",
     "title": "Chicken Katsu",
-    "price": 11.95,
+    "price": 6.95,
     "description": "Breaded & deep fried chicken cutlet"
   },
   {
@@ -304,7 +304,7 @@
     "menu": "Takeout Menu",
     "category": "Party Trays",
     "title": "Sashimi Special",
-    "price": 67.5,
+    "price": 87.5,
     "description": "6 Tuna, 6 Salmon, 6 Red shrimp, 6 Surf Clam, 6 Snapper, 3 Octopus, 6 Butterfish, 3 Cuttle Fish, 6 Albacore"
   },
   {
@@ -453,13 +453,6 @@
     "title": "Sweet Dreams (8pcs)",
     "price": 7.95,
     "description": "Sweet potato tempura, avocado and cream cheese"
-  },
-  {
-    "menu": "Takeout Menu",
-    "category": "Vegetarian Maki",
-    "title": "Firecrackers Dream (6pcs)",
-    "price": 6.5,
-    "description": "Your choice of cucumber or avocado with spicy mayo, tempura bits, and bread crumbs"
   },
   {
     "menu": "Takeout Menu",
@@ -619,7 +612,7 @@
     "menu": "Takeout Menu",
     "category": "Sushi & Sashimi",
     "title": "Unagi – Bbq Eel Sashimi",
-    "price": 7.5,
+    "price": 8.5,
     "description": ""
   },
   {
@@ -717,7 +710,7 @@
     "menu": "Takeout Menu",
     "category": "Soup & Salad",
     "title": "House Salad",
-    "price": 5.5,
+    "price": 4.5,
     "description": "Assorted greens with house dressing"
   },
   {
@@ -1073,7 +1066,7 @@
   {
     "menu": "Takeout Menu",
     "category": "Sushi & Sashimi Course Dinner",
-    "title": "Sushi 101 Boat (for 2 persons)",
+    "title": "Tekka Don",
     "price": 18.95,
     "description": "Marinated fish, Tuna and Avocado on Sushi Rice"
   },
