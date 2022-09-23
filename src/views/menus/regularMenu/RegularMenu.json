@@ -59,14 +59,14 @@
     "menu": "Regular Menu",
     "category": "Appetizers",
     "title": "Tuna Tataki",
-    "price": 11.95,
+    "price": 12.95,
     "description": "Lightly breaded and slightly deep fried tuna with Japanese spicy salsa"
   },
   {
     "menu": "Regular Menu",
     "category": "Appetizers",
     "title": "Salmon Tataki",
-    "price": 11.95,
+    "price": 12.95,
     "description": "Lightly breaded and slightly deep fried salmon with Japanese spicy salsa"
   },
   {
@@ -94,7 +94,7 @@
     "menu": "Regular Menu",
     "category": "Appetizers",
     "title": "Ika Tempura",
-    "price": 7.5,
+    "price": 8.5,
     "description": "Lightly battered & deep fried squid"
   },
   {
@@ -122,14 +122,14 @@
     "menu": "Regular Menu",
     "category": "Appetizers",
     "title": "Softshell Crab",
-    "price": 12.95,
+    "price": 13.95,
     "description": "Lightly battered and deep fried softshell crab with plum sauce"
   },
   {
     "menu": "Regular Menu",
     "category": "Appetizers",
     "title": "Spicy Gari Salmon (5pcs)",
-    "price": 11.95,
+    "price": 12.95,
     "description": "Pickled ginger, avocado, cucumber, and spicy mayo with (or without) fish roe wrapped in raw salmon"
   },
   {
@@ -254,15 +254,15 @@
   {
     "menu": "Regular Menu",
     "category": "Sushi & Sashimi",
-    "title": "Saba – Mackerel Nigiri",
-    "price": 5.95,
+    "title": "Hamachi – Yellow Tail Nigiri",
+    "price": 6.95,
     "description": ""
   },
   {
     "menu": "Regular Menu",
     "category": "Sushi & Sashimi",
-    "title": "Saba – Mackerel Sashimi",
-    "price": 6.95,
+    "title": "Hamachi – Yellow Tail Sashimi",
+    "price": 9.95,
     "description": ""
   },
   {
@@ -577,7 +577,7 @@
     "menu": "Regular Menu",
     "category": "Fusion Special",
     "title": "Sushi 101 House Roll (4pcs)",
-    "price": 5.95,
+    "price": 6.25,
     "description": ""
   },
   {
@@ -619,7 +619,7 @@
     "menu": "Regular Menu",
     "category": "Fusion Special",
     "title": "Spicy Shrimp Roll (4pcs)",
-    "price": 5.95,
+    "price": 6.95,
     "description": ""
   },
   {
@@ -633,7 +633,7 @@
     "menu": "Regular Menu",
     "category": "Fusion Special",
     "title": "Together Forever Roll (4pcs)",
-    "price": 5.95,
+    "price": 6.25,
     "description": ""
   },
   {
@@ -647,7 +647,7 @@
     "menu": "Regular Menu",
     "category": "Fusion Special",
     "title": "Tropicana Roll (4pcs)",
-    "price": 5.95,
+    "price": 6.25,
     "description": ""
   },
   {
@@ -675,7 +675,7 @@
     "menu": "Regular Menu",
     "category": "Fusion Special",
     "title": "Mini Kamikaze Roll (4pcs)",
-    "price": 4.95,
+    "price": 5.25,
     "description": ""
   },
   {
@@ -759,7 +759,7 @@
     "menu": "Regular Menu",
     "category": "Fusion Special",
     "title": "Green Dragon Roll (4pcs)",
-    "price": 5.25,
+    "price": 5.50,
     "description": ""
   },
   {
@@ -773,7 +773,7 @@
     "menu": "Regular Menu",
     "category": "Fusion Special",
     "title": "Viva la Vida Roll (4pcs)",
-    "price": 5.95,
+    "price": 6.25,
     "description": ""
   },
   {
@@ -794,63 +794,63 @@
     "menu": "Regular Menu",
     "category": "Sushi & Sashimi Course Dinner",
     "title": "Assorted Sashimi Dinner (14 pcs Sashimi)",
-    "price": 19.95,
+    "price": 21.95,
     "description": "2 Tuna, 3 Salmon, 2 Snapper, 3 Albacore, 2 Butter Fish, & 2 Surf Clam"
   },
   {
     "menu": "Regular Menu",
     "category": "Sushi & Sashimi Course Dinner",
     "title": "Deluxe Sashimi Combo (21 pcs Sashimi)",
-    "price": 27.95,
+    "price": 29.95,
     "description": "3 Tuna, 3 Salmon, 3 Snapper, 3 White Tuna, 3 Cuttle Fish, 2 Red Shrimp, 2 Butter Fish, and 2 Surf Clam"
   },
   {
     "menu": "Regular Menu",
     "category": "Sushi & Sashimi Course Dinner",
     "title": "Assorted Sushi Combo (6pcs Nigri, 6pcs Maki)",
-    "price": 16.95,
+    "price": 17.95,
     "description": "Salmon, Tuna, Snapper, Butter Fish, Shrimp, &White Tuna, 3 California Roll and 3 Spicy Salmon Roll"
   },
   {
     "menu": "Regular Menu",
     "category": "Sushi & Sashimi Course Dinner",
     "title": "Deluxe Sushi Combo (10pcs Nigri, 9pcs Maki)",
-    "price": 23.95,
+    "price": 25.95,
     "description": "2 Salmon, 2 Tuna, Red shrimp, Snapper, Shrimp, White Tuna, Butter Fish\nEel, 3 California Roll, 3 Spicy Salmon Roll & 3 Tuna Roll"
   },
   {
     "menu": "Regular Menu",
     "category": "Sushi & Sashimi Course Dinner",
     "title": "Vegetable Sushi Dinner (5 pcs Nigiri, 6 pcs Maki)",
-    "price": 12.95,
+    "price": 14.95,
     "description": "5 Vegetable Nigiri, 3 Avocado Maki and 3 Sweet Potato Maki"
   },
   {
     "menu": "Regular Menu",
     "category": "Sushi & Sashimi Course Dinner",
     "title": "Assorted Maki Combo (15pcs Maki)",
-    "price": 13.95,
+    "price": 15.95,
     "description": "3 California, 3 Spicy Salmon, 3 Tuna and 6 Teriyaki Roll"
   },
   {
     "menu": "Regular Menu",
     "category": "Sushi & Sashimi Course Dinner",
     "title": "Deluxe Maki Combo (23pcs Maki)",
-    "price": 22.5,
+    "price": 24.5,
     "description": "4 Black Dragon, 4 Gold Dragon, 3 California, 3 Spicy Salmon, 3 Tuna and 6 Teriyaki Roll"
   },
   {
     "menu": "Regular Menu",
     "category": "Sushi & Sashimi Course Dinner",
     "title": "Vegetable Maki Combo (18pcs)",
-    "price": 13.95,
+    "price": 15.95,
     "description": "6 Sweet Potato Roll, 6 Grilled Vegetable, and 6 Asparagus Roll"
   },
   {
     "menu": "Regular Menu",
     "category": "Sushi & Sashimi Course Dinner",
     "title": "Kaisen Chirashi Don",
-    "price": 19.5,
+    "price": 21.5,
     "description": "Assorted Sashimi on a bed of Sushi Rice"
   },
   {
@@ -871,43 +871,50 @@
     "menu": "Regular Menu",
     "category": "Sushi & Sashimi Course Dinner",
     "title": "Sushi 101 Boat (for 2 persons)",
-    "price": 52.5,
+    "price": 54.5,
     "description": "Nigiri: 2 Salmon, 2 Tuna, 2 Snapper, 2 Shrimp, 2 Butter Fish Sashimi: 2 Salmon, 2 Albacore, 2 Snapper, Tuna, Surf Clam Maki: 6 California Roll, 4 Black Dragon, 4 Gold Dragon"
   },
   {
     "menu": "Regular Menu",
     "category": "Kaiseki",
     "title": "Teriyaki Dinner",
-    "price": 15.95,
+    "price": 17.95,
     "description": "Your choice of teriyaki chicken, beef, salmon, shrimp or scallops, served with rice & teriyaki sauce. Garnished with zucchini, eggplant, green onion, fried onion and fried sweet potato"
   },
   {
     "menu": "Regular Menu",
     "category": "Kaiseki",
     "title": "Teriyaki Combo Dinner",
-    "price": 20.95,
+    "price": 22.95,
     "description": "Your choice of any 2 items of teriyaki chicken, beef, salmon, shrimp or scallops, served with rice & teriyaki sauce. Garnished with zucchini, eggplant, green onion, fried onion and fried sweet potato"
   },
   {
     "menu": "Regular Menu",
     "category": "Bento Box Dinner",
     "title": "Tokyo Bento",
-    "price": 19.95,
+    "price": 21.95,
     "description": "Tokyo spring roll, assorted tempura, grilled salmon or shrimp, cucumber roll"
   },
   {
     "menu": "Regular Menu",
     "category": "Bento Box Dinner",
     "title": "Osaka Bento",
-    "price": 17.95,
+    "price": 19.95,
     "description": "Agedashi tofu, assorted tempura, chicken or beef stir-fry with vegetables, asparagus roll"
   },
   {
     "menu": "Regular Menu",
     "category": "Bento Box Dinner",
-    "title": "Veggie Bento",
-    "price": 15.95,
-    "description": "Veggie gyoza, stir-fried vegetables, sweet potato croquette, seaweed cucumber roll"
+    "title": "Lobster Tail Bento Box",
+    "price": 26.95,
+    "description": "Rock lobster, stir-fired with ginger and green onion, served with house salad, veggie dumpling, rice and California roll"
+  },
+  {
+    "menu": "Regular Menu",
+    "category": "Bento Box Dinner",
+    "title": "Unaju",
+    "price": 17.95,
+    "description": "Barbecued eel on rice"
   },
   {
     "menu": "Regular Menu",
@@ -992,12 +999,5 @@
     "title": "Tenderous Rib Ramen",
     "price": 12.95,
     "description": "(can be served spicy) Ramen noodle in homemade Tonkotsu soup."
-  },
-  {
-    "menu": "Regular Menu",
-    "category": "Noodles",
-    "title": "Hokkaido Somen",
-    "price": 13.95,
-    "description": "(can be served spicy) White Japanese wheat flour noodles,served with homemade fish, boiled crab meat, boiled scallop, red shrimp, squid and egg, topped with fried tofu, bean sprouts, green onions and cilantro"
   }
 ]
