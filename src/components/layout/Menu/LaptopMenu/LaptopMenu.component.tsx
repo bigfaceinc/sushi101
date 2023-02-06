@@ -28,7 +28,7 @@ export const LogoTransparent = () => {
   // eslint-disable-next-line @next/next/no-img-element
   return (
     <Link href="/" passHref>
-      <img src={logo} width="100%" alt="sushi101-menubar-logo" />
+      <img src={logo.src} width="100%" alt="sushi101-menubar-logo" />
     </Link>
   );
 };
@@ -37,7 +37,7 @@ export const LogoWhite = () => {
   // eslint-disable-next-line @next/next/no-img-element
   return (
     <Link href="/" passHref>
-      <img src={logoWhite} width="100%" alt="sushi101-menubar-logo" />
+      <img src={logoWhite.src} width="100%" alt="sushi101-menubar-logo" />
     </Link>
   );
 };
