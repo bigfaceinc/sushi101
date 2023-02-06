@@ -8,8 +8,8 @@ jobs:
         uses: actions/checkout@v2
       - run: git config --global user.email "action@github.com"
       - run: git config --global user.name "GitHub Action"
-      
-      - uses: actions/setup-node@v2
+
+      - uses: actions/setup-node@v3
         with:
           node-version: '16'
           cache: 'pnpm'
