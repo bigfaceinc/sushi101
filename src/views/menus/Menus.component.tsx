@@ -64,7 +64,7 @@ export const MenuHeader = ({menuCategory: {title, background}}: { menuCategory: 
       height: "30vh",
       width: "100%",
       // menu image cover
-      backgroundImage: `url(${background})`,
+      backgroundImage: `url(${background.src})`,
       backgroundPosition: "80% 50%",
       backgroundRepeat: "no"
     }}>

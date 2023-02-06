@@ -10,7 +10,7 @@ export const backgroundCss: SxProps<Theme> = {
   backgroundSize: "cover",
   height: "60vh",
   width: "100%",
-  backgroundImage: `url(${landingImg})`,
+  backgroundImage: `url(${landingImg.src})`,
   // backgroundAttachment: "fixed",
   backgroundPosition: "center center ",
   backgroundRepeat: "no-repeat",

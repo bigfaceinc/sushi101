@@ -3,7 +3,7 @@ import storyImg from "../img/story-background.jpg";
 
 export const ourStoryBackgroundCss: SxProps<Theme> = {
   backgroundSize: "cover",
-  backgroundImage: `url(${storyImg})`,
+  backgroundImage: `url(${storyImg.src})`,
   backgroundPosition: "center center ",
   backgroundRepeat: "no-repeat",
 };
