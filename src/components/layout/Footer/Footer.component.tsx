@@ -7,7 +7,7 @@ export const BusinessTime = () => {
     <>
       <Grid item container direction="column">
         <Typography pb={1} variant="h5" color="white">
-          Business Hours
+          Business Hours 
         </Typography>
         <Typography color="white">MON: 11:30am - 9pm</Typography>
         <Typography color="white">TUE-SAT: 11:30am - 9pm</Typography>

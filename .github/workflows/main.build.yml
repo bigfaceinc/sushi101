@@ -22,7 +22,7 @@ jobs:
           node-version: 16
           cache: 'pnpm'
 
-      - run: pnpm run export -o ./docs
+      - run: pnpm run export
 
       - name: Git add
         run: git add .
