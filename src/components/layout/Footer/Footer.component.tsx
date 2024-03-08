@@ -9,7 +9,7 @@ export const BusinessTime = () => {
         <Typography pb={1} variant="h5" color="white">
           Business Hours
         </Typography>
-        <Typography color="white">MON: 3:30pm - 9pm</Typography>
+        <Typography color="white">MON: 11:30am - 9pm</Typography>
         <Typography color="white">TUE-SAT: 11:30am - 9pm</Typography>
         <Typography color="white">SUN: 3:30pm - 8:30pm</Typography>
       </Grid>
