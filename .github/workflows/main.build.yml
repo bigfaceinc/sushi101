@@ -9,18 +9,18 @@ jobs:
       - run: git config --global user.email "action@github.com"
       - run: git config --global user.name "GitHub Action"
 
-      - name: Install Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 16
-          cache: "pnpm"
-
       - uses: pnpm/action-setup@v3
         name: Install pnpm
         id: pnpm-install
         with:
           version: 8
           run_install: true
+          
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: 'pnpm'
 
       - run: pnpm run export -o ./docs
 
@@ -31,4 +31,4 @@ jobs:
         run: 'git commit -m "Github actions: update /docs"'
 
       - name: Git push
-        run: "git push origin main:main"
+        run: 'git push origin main:main'
