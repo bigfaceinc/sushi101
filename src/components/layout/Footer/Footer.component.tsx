@@ -17,7 +17,6 @@ export const BusinessTime = () => {
   );
 };
 
-
 const phoneNumberFormatter = (str: string) => {
   const phoneNumberReg = /(\d{3})(\d{3})(\d{4})/;
   const cleaned = str.trim();
